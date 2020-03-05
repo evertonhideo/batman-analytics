@@ -51,7 +51,6 @@ def get_partition(pld_json):
 
 
 def save_pld_s3(key, pld_str):
-
     s3 = boto3.client("s3")
     s3.put_object(Bucket=BUCKET_NAME, Key=key, Body=pld_str)
 

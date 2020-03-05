@@ -1,0 +1,7 @@
+[
+  "test_analytics.py::test_get_key_path",
+  "test_analytics.py::test_get_partition_with_timestamp",
+  "test_analytics.py::test_get_partition_without_timestamp",
+  "test_analytics.py::test_clean_str_pld",
+  "test_analytics.py::test_save_pld_s3"
+]
